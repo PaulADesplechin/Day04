@@ -1,11 +1,12 @@
-function newt() {
-    let price = document.getElementById("price");
-    price.textContent = '0 €';
+function resetPrice() {
+    let prixElement = document.getElementById("price");
+    prixElement.textContent = '0 €';
 }
+
 window.onload = function(){
-    newt()
+    resetPrice();
 }
-function reloadPage() {
+
+function rechargerPage() {
     location.reload();
 }
-    

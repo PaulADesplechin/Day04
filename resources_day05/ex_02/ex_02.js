@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const paragraphs = document.querySelectorAll('p');
-    let counter = 0;
-    paragraphs.forEach((paragraph) => {
-      paragraph.textContent = counter.toString();
-      counter++;
+    const texteElements = document.querySelectorAll('p');
+    let compteur = 0;
+    texteElements.forEach((element) => {
+      element.textContent = compteur.toString();
+      compteur++;
     });
-  });
+});
